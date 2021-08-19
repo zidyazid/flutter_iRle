@@ -1,0 +1,31 @@
+// import 'package:chatbot/widget/widgets.dart';
+import 'dart:async';
+
+import 'package:chatbot/cubit/cubit.dart';
+import 'package:chatbot/cubit/user_cubit.dart';
+import 'package:chatbot/models/models.dart';
+import 'package:chatbot/ui/widget/widgets.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_dialogflow/dialogflow_v2.dart';
+import 'package:get/get.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:supercharged/supercharged.dart';
+import 'package:chatbot/shared/shared.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+
+part 'chabot_page.dart';
+part 'general_sign.dart';
+part 'sign_in_page.dart';
+part 'sign_up_page.dart';
+part 'main_page.dart';
+part 'materi_list_item.dart';
+part 'materi_page.dart';
+part 'kuis_page.dart';
+part 'kosa_kata_page.dart';
+part 'general_page.dart';
+part 'quis_finish.dart';
+part 'score_page.dart';
+part 'onboarding_page.dart';
+part 'splash_screen.dart';
